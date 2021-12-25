@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+/*header*/
+
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_inner {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+.logo_first {
+    width: 165px;
+    height: 84px;
+}
+
+.nav_bt {
+    background-color: #374472;
+}
+
+.nav_btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    border: 3px solid #374472;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: backround .1s linear, color .1s linear;
+}
+
+.nav_block {
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.nav_link {
+    color: rgb(59, 74, 145);
+    text-decoration: none;
+    width: 15px;
+    margin-left: 1rem;
+}
+
+.nav_link {
+    color: rgb(59, 74, 145);
+    text-decoration: none;
+    left: 10rem;
+}
+
+.nav_link2 {
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.container {
+    position: absolute;
+    width: 696px;
+    height: 146px;
+    left: 50px;
+    top: 182px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    color: #89A5D5;
+}
+
+.container_title {
+    size: 24px;
+    color: rgb(59, 74, 145);
+}
+
+.container_photos {
+    position: absolute;
+    width: 310px;
+    height: 312px;
+    left: 143px;
+    top: 460px;
+}
+
+.container_photo_text {
+    width: 30px;
+}
